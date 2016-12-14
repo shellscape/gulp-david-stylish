@@ -1,0 +1,29 @@
+{
+  "name": "gulp-david-stylish",
+  "version": "1.0.0",
+  "description": "A stylish reporter for the gulp-david Gulp plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellscape/gulp-david-stylish.git"
+  },
+  "keywords": [
+    "gulp",
+    "david",
+    "stylish",
+    "reporter"
+  ],
+  "author": "Andrew Powell <andrew@shellscape.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shellscape/gulp-david-stylish/issues"
+  },
+  "homepage": "https://github.com/shellscape/gulp-david-stylish#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1"
+  }
+}
