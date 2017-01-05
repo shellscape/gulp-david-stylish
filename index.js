@@ -16,8 +16,6 @@ class Reporter {
       throw new Error(`[${ pkg.name }] Dependencies not found.`);
     }
 
-    console.log('\n', chalk.underline(file.path), '\n');
-
     let types = Object.keys(file.david)
                       .filter(type => Object.keys(file.david[type]).length > 0);
 
@@ -25,6 +23,8 @@ class Reporter {
       console.log(chalk.green('\n  All dependencies up to date.\n'));
     }
     else {
+      console.log('\n', chalk.underline(file.path), '\n');
+
       types.forEach(type => {
 
         let deps = file.david[type],

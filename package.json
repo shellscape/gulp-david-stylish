@@ -1,6 +1,6 @@
 {
   "name": "gulp-david-stylish",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A stylish reporter for the gulp-david Gulp plugin",
   "main": "index.js",
   "scripts": {
